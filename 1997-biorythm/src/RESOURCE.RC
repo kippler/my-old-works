@@ -1,0 +1,130 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "BACK.BMP"
+IDB_BUTTON0             BITMAP  DISCARDABLE     "button0.bmp"
+IDB_BUTTON1             BITMAP  DISCARDABLE     "button1.bmp"
+IDB_BUTTON2             BITMAP  DISCARDABLE     "button2.bmp"
+IDB_BUTTON3             BITMAP  DISCARDABLE     "button3.bmp"
+IDB_BUTTON4             BITMAP  DISCARDABLE     "button4.bmp"
+IDB_BUTTON5             BITMAP  DISCARDABLE     "button5.bmp"
+IDB_BUTTON6             BITMAP  DISCARDABLE     "button6.bmp"
+IDB_BUTTON7             BITMAP  DISCARDABLE     "button7.bmp"
+IDB_BUTTON8             BITMAP  DISCARDABLE     "button8.bmp"
+IDB_BUTTON9             BITMAP  DISCARDABLE     "button9.bmp"
+IDB_BUTTONS3            BITMAP  DISCARDABLE     "buttons3.bmp"
+IDB_BUTTONS2            BITMAP  DISCARDABLE     "buttons2.bmp"
+IDB_BUTTONS1            BITMAP  DISCARDABLE     "buttons1.bmp"
+IDB_BUTTONS0            BITMAP  DISCARDABLE     "buttons0.bmp"
+IDB_BUTTONS4            BITMAP  DISCARDABLE     "buttons4.bmp"
+IDB_BUTTONS5            BITMAP  DISCARDABLE     "buttons5.bmp"
+IDB_BUTTONS6            BITMAP  DISCARDABLE     "buttons6.bmp"
+IDB_BUTTONS7            BITMAP  DISCARDABLE     "buttons7.bmp"
+IDB_BUTTONS8            BITMAP  DISCARDABLE     "buttons8.bmp"
+IDB_BUTTONS9            BITMAP  DISCARDABLE     "buttons9.bmp"
+IDB_BUTTONB             BITMAP  DISCARDABLE     "backspc.bmp"
+IDB_BUTTONRUN           BITMAP  DISCARDABLE     "run.bmp"
+IDB_BUTTONSB            BITMAP  DISCARDABLE     "sbackspc.bmp"
+IDB_BUTTONSRUN          BITMAP  DISCARDABLE     "srun.bmp"
+IDB_DATE0               BITMAP  DISCARDABLE     "date0.bmp"
+IDB_DATE1               BITMAP  DISCARDABLE     "date1.bmp"
+IDB_DATE2               BITMAP  DISCARDABLE     "date2.bmp"
+IDB_DATE3               BITMAP  DISCARDABLE     "date3.bmp"
+IDB_DATE4               BITMAP  DISCARDABLE     "date4.bmp"
+IDB_DATE5               BITMAP  DISCARDABLE     "date5.bmp"
+IDB_DATE6               BITMAP  DISCARDABLE     "date6.bmp"
+IDB_DATE7               BITMAP  DISCARDABLE     "date7.bmp"
+IDB_DATE8               BITMAP  DISCARDABLE     "date8.bmp"
+IDB_DATE9               BITMAP  DISCARDABLE     "date9.bmp"
+IDB_DATE_NULL           BITMAP  DISCARDABLE     "date10.bmp"
+IDB_BALL_RED            BITMAP  DISCARDABLE     "ball_red.bmp"
+IDB_BALL_BLUE           BITMAP  DISCARDABLE     "ball_blue.bmp"
+IDB_BALL_GREEN          BITMAP  DISCARDABLE     "ball_green.bmp"
+IDB_BUTTON_RESTART      BITMAP  DISCARDABLE     "restart.bmp"
+IDB_BUTTON_RESTARTS     BITMAP  DISCARDABLE     "srestart.bmp"
+IDB_EXIT                BITMAP  DISCARDABLE     "EXIT.bmp"
+IDB_EXITS               BITMAP  DISCARDABLE     "exitS.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+BIO                     ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+WAVE_EXIT               WAVE    DISCARDABLE     "exit.wav"
+WAVE_WARNING            WAVE    DISCARDABLE     "warning.wav"
+WAVE_CLICK              WAVE    DISCARDABLE     "click.wav"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
