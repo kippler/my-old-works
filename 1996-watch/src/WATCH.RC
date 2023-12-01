@@ -1,0 +1,174 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+WATCH                   ICON    DISCARDABLE     "watch.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+WATCH DIALOG DISCARDABLE  32768, 0, 68, 16
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "WATCH"
+CLASS "WATCH"
+FONT 10, "System"
+BEGIN
+END
+
+ABOUTBOX DIALOG DISCARDABLE  0, 0, 76, 107
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "ALITA"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "오케이",IDOK,18,90,39,13
+    CONTROL         125,IDC_STATIC,"Static",SS_BITMAP | WS_BORDER,7,7,61,78
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP0             BITMAP  DISCARDABLE     "bitmap10.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "bitmap9.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "bitmap2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "bitmap3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "bitmap4.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "bitmap5.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "bitmap6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "bitmap7.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "bitmap8.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+IDB_BITMAP_SEMICOLON    BITMAP  DISCARDABLE     "bmp00001.bmp"
+IDB_ABOUT               BITMAP  DISCARDABLE     "bmp00002.bmp"
+IDB_SM_BITMAP0          BITMAP  DISCARDABLE     "sm_0.bmp"
+IDB_SM_BITMAP1          BITMAP  DISCARDABLE     "bmp00003.bmp"
+IDB_SM_BITMAP2          BITMAP  DISCARDABLE     "bmp00004.bmp"
+IDB_SM_BITMAP3          BITMAP  DISCARDABLE     "bmp00005.bmp"
+IDB_SM_BITMAP4          BITMAP  DISCARDABLE     "bmp00006.bmp"
+IDB_SM_BITMAP5          BITMAP  DISCARDABLE     "bmp00007.bmp"
+IDB_SM_BITMAP6          BITMAP  DISCARDABLE     "bmp00008.bmp"
+IDB_SM_BITMAP7          BITMAP  DISCARDABLE     "bmp00009.bmp"
+IDB_SM_BITMAP8          BITMAP  DISCARDABLE     "bmp00010.bmp"
+IDB_SM_BITMAP9          BITMAP  DISCARDABLE     "bmp00011.bmp"
+IDB_SM_SEMICOLON        BITMAP  DISCARDABLE     "sm_bitma.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+WATCH MENU DISCARDABLE 
+BEGIN
+    POPUP "POPUP"
+    BEGIN
+        MENUITEM "ALITA",                       IDM_ABOUT
+        MENUITEM "맨위로",                      IDM_TOPMOST
+        MENUITEM "24시간제",                    IDM_24
+        POPUP "CD"
+        BEGIN
+            MENUITEM "CD 틀기",                     IDM_PLAYCD
+            MENUITEM "CD 멈추기",                   IDM_STOPCD
+        END
+        MENUITEM "종료",                        IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "WATCH", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 15
+    END
+
+    "ABOUTBOX", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 69
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
